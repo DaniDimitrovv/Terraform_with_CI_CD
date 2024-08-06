@@ -9,7 +9,7 @@ terraform {
     resource_group_name = "StorageRGDani"
     storage_account_name = "taskboardstoragedani "
     container_name = "taskboardcontainerdani"
-    key = terraform.tfstate
+    key = "terraform.tfstate"
   }
 }
 
